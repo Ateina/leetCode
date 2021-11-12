@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Rep\\net\\leetCode\\multipleStrings\\multipleStrings.csproj",
-      "projectName": "multipleStrings",
-      "projectPath": "D:\\Rep\\net\\leetCode\\multipleStrings\\multipleStrings.csproj",
+      "projectUniqueName": "D:\\Rep\\net\\leetCode\\leetCode.MultiplyStrings\\leetCode.MultiplyStrings.csproj",
+      "projectName": "leetCode.MultiplyStrings",
+      "projectPath": "D:\\Rep\\net\\leetCode\\leetCode.MultiplyStrings\\leetCode.MultiplyStrings.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Rep\\net\\leetCode\\multipleStrings\\obj\\",
+      "outputPath": "D:\\Rep\\net\\leetCode\\leetCode.MultiplyStrings\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"

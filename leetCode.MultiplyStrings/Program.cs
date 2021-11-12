@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace multipleStrings
+namespace leetCode.MultiplyStrings
 {
     class Program
     {
@@ -134,3 +134,4 @@ namespace multipleStrings
         }
     }
 }
+
