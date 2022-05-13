@@ -1,36 +1,77 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    ".NETFramework,Version=v5.0": {
+      "System.Core/3.5.21022.801": {
+        "type": "package",
+        "compile": {
+          "lib/net20/System.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net20/System.Core.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v5.0/win7-x86": {
+      "System.Core/3.5.21022.801": {
+        "type": "package",
+        "compile": {
+          "lib/net20/System.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net20/System.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "System.Core/3.5.21022.801": {
+      "sha512": "QPzEPxDOY7zdWl4hpGcTCuMiTZa83YER1MO99l3pbj+Rn3Wp47kCTJBEUsoYu1ohiUdxsbjVENNP77Qr1MLvZQ==",
+      "type": "package",
+      "path": "system.core/3.5.21022.801",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/System.Core.dll",
+        "system.core.3.5.21022.801.nupkg.sha512",
+        "system.core.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    ".NETFramework,Version=v5.0": [
+      "System.Core >= 3.5.21022.801"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\adr\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Rep\\net\\leetCodeRep\\leetCode.PlusOne\\leetCode.PlusOne.csproj",
+      "projectUniqueName": "D:\\Projects\\leetCode\\leetCode.PlusOne\\leetCode.PlusOne.csproj",
       "projectName": "leetCode.PlusOne",
-      "projectPath": "D:\\Rep\\net\\leetCodeRep\\leetCode.PlusOne\\leetCode.PlusOne.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Rep\\net\\leetCodeRep\\leetCode.PlusOne\\obj\\",
+      "projectPath": "D:\\Projects\\leetCode\\leetCode.PlusOne\\leetCode.PlusOne.csproj",
+      "packagesPath": "C:\\Users\\adr\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\leetCode\\leetCode.PlusOne\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\adr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net50"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net50": {
           "projectReferences": {}
         }
       },
@@ -41,24 +82,19 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
-        "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
-        ],
-        "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
+      "net50": {
+        "dependencies": {
+          "System.Core": {
+            "target": "Package",
+            "version": "[3.5.21022.801, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
       }
     }
   }
