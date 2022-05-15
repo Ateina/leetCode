@@ -18,3 +18,5 @@
 /leetCode.TwoSum/obj/leetCode.TwoSum.csproj.nuget.dgspec.json
 /leetCode.TwoSum/obj/leetCode.TwoSum.csproj.nuget.g.props
 /leetCode.TwoSum/obj/project.assets.json
+/ConsoleApp1/bin/Debug/**
+/ValidParentheses/bin/Debug/**
