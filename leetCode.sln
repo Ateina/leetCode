@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "leetCode.IsPolindrom", "lee
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidParentheses", "ValidParentheses\ValidParentheses.csproj", "{56F1DFE4-7616-4A93-9967-B161AC4DED30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "ConsoleApp1\BinarySearch.csproj", "{B3F8F1A5-52AF-4924-8BFE-9615C3123519}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "ConsoleApp1\BinarySearch.csproj", "{B3F8F1A5-52AF-4924-8BFE-9615C3123519}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchInsert", "SearchInsert\SearchInsert.csproj", "{9D7ED8CB-5919-4602-AE4A-C0F84F09EB41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchInsert", "SearchInsert\SearchInsert.csproj", "{9D7ED8CB-5919-4602-AE4A-C0F84F09EB41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstBadVersion", "FirstBadVersion\FirstBadVersion.csproj", "{2293B9DF-757E-4BBF-9694-F9A5C16FB4C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +127,18 @@ Global
 		{9D7ED8CB-5919-4602-AE4A-C0F84F09EB41}.Release|x64.Build.0 = Release|Any CPU
 		{9D7ED8CB-5919-4602-AE4A-C0F84F09EB41}.Release|x86.ActiveCfg = Release|Any CPU
 		{9D7ED8CB-5919-4602-AE4A-C0F84F09EB41}.Release|x86.Build.0 = Release|Any CPU
+		{2293B9DF-757E-4BBF-9694-F9A5C16FB4C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2293B9DF-757E-4BBF-9694-F9A5C16FB4C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2293B9DF-757E-4BBF-9694-F9A5C16FB4C5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2293B9DF-757E-4BBF-9694-F9A5C16FB4C5}.Debug|x64.Build.0 = Debug|Any CPU
+		{2293B9DF-757E-4BBF-9694-F9A5C16FB4C5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2293B9DF-757E-4BBF-9694-F9A5C16FB4C5}.Debug|x86.Build.0 = Debug|Any CPU
+		{2293B9DF-757E-4BBF-9694-F9A5C16FB4C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2293B9DF-757E-4BBF-9694-F9A5C16FB4C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2293B9DF-757E-4BBF-9694-F9A5C16FB4C5}.Release|x64.ActiveCfg = Release|Any CPU
+		{2293B9DF-757E-4BBF-9694-F9A5C16FB4C5}.Release|x64.Build.0 = Release|Any CPU
+		{2293B9DF-757E-4BBF-9694-F9A5C16FB4C5}.Release|x86.ActiveCfg = Release|Any CPU
+		{2293B9DF-757E-4BBF-9694-F9A5C16FB4C5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
