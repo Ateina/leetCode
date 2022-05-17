@@ -21,3 +21,4 @@
 /ConsoleApp1/bin/Debug/**
 /ValidParentheses/bin/Debug/**
 /**/bin/Debug/netcoreapp3.1/**
+/.vs/leetCode/DesignTimeBuild/.dtbcache
