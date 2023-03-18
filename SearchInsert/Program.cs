@@ -4,14 +4,14 @@ namespace SearchInsert
 {
     class Program
     {
-        void Main(string[] args)
+        static void Main(string[] args)
         {
             int[] array = new[] { -1, 0, 3, 5, 9, 12 };
             int result = SearchInsert(array, 9);
             Console.WriteLine(result);
         }
 
-        public int SearchInsert(int[] nums, int target)
+        public static int SearchInsert(int[] nums, int target)
         {
             int min = 0;
             int max = nums.Length - 1;

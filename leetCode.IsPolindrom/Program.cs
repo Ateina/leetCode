@@ -6,6 +6,11 @@ namespace leetCode.IsPolindrom
     {
         static void Main(string[] args)
         {
+            bool result = IsPolindrom("dgsdgdsg");
+        }
+
+        public static bool IsPolindrom(string s)
+        {
             var x = 122221;
             if (x < 0 || (x % 10 == 0 && x != 0))
             {
@@ -19,5 +24,6 @@ namespace leetCode.IsPolindrom
             }
             return x == revertedNumber || x == revertedNumber / 10;
         }
+
     }
 }
